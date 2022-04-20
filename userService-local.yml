@@ -1,6 +1,6 @@
 token:
   expiration_time: 86400000
-  secret: ecommerce_token123
+  secret: ecommerce_token
 
 gateway:
   ip: 172.30.1.28
@@ -64,4 +64,4 @@ management:
   endpoints:
     web:
       exposure:
-        include: refresh, health, busrefresh
+        include: busrefresh

@@ -53,6 +53,6 @@ management:
   endpoints:
     web:
       exposure:
-        include: refresh, health
+        include: busrefresh
 
 
