@@ -1,6 +1,6 @@
 token:
   expiration_time: 86400000
-  secret: ecommerce_token1
+  secret: ecommerce_token
 
 server:
   port: 8000
