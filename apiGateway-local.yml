@@ -141,4 +141,4 @@ management:
   endpoints:
     web:
       exposure:
-        include: refresh, health, httptrace
+        include: refresh, health, httptrace, busrefresh
