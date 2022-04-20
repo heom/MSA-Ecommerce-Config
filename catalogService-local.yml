@@ -52,7 +52,7 @@ eureka:
     instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
 
 management:
-  endpoint:
+  endpoints:
     web:
       exposure:
         include: refresh, health

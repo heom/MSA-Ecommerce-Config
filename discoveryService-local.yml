@@ -11,7 +11,7 @@ eureka:
     fetch-registry: false # EUREKA 서버로부터 인스턴스들의 정보를 주기적으로 가져올 것을 미설정, Default true
 
 management:
-  endpoint:
+  endpoints:
     web:
       exposure:
         include: refresh, health
