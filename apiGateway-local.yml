@@ -55,13 +55,6 @@ spring:
         - id: user-service
           uri: lb://USER-SERVICE
           predicates:
-            - Path=/user-service/actuator/**
-          filters:
-            - RemoveRequestHeader=Cookie
-            - RewritePath=/user-service/(?<segment>.*), /$\{segment}
-        - id: user-service
-          uri: lb://USER-SERVICE
-          predicates:
             - Path=/user-service/**
           filters:
             - RemoveRequestHeader=Cookie
@@ -86,13 +79,6 @@ spring:
         - id: catalog-service
           uri: lb://CATALOG-SERVICE
           predicates:
-            - Path=/catalog-service/actuator/**
-          filters:
-            - RemoveRequestHeader=Cookie
-            - RewritePath=/catalog-service/(?<segment>.*), /$\{segment}
-        - id: catalog-service
-          uri: lb://CATALOG-SERVICE
-          predicates:
             - Path=/catalog-service/**
           filters:
             - RemoveRequestHeader=Cookie
@@ -111,13 +97,6 @@ spring:
           uri: lb://ORDER-SERVICE
           predicates:
             - Path=/order-service/h2-console
-          filters:
-            - RemoveRequestHeader=Cookie
-            - RewritePath=/order-service/(?<segment>.*), /$\{segment}
-        - id: order-service
-          uri: lb://ORDER-SERVICE
-          predicates:
-            - Path=/order-service/actuator/**
           filters:
             - RemoveRequestHeader=Cookie
             - RewritePath=/order-service/(?<segment>.*), /$\{segment}
