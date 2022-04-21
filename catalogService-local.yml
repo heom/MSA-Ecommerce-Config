@@ -41,11 +41,7 @@ spring:
     defer-datasource-initialization: true
     show-sql: true
     generate-ddl: true
-
-logging:
-  level:
-    me.study.catalogservice: DEBUG
-
+    
 eureka:
   client:
     register-with-eureka: true # 현재 프로젝트 Discovery Service 등록(서버로서 기동만 되어 있으면 되기 때문에), Default true
