@@ -49,6 +49,7 @@ spring:
 logging:
   level:
     me.study.userservice: DEBUG
+    me.study.userservice.client: DEBUG
 
 eureka:
   client:
