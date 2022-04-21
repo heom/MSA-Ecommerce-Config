@@ -1,6 +1,6 @@
 token:
   expiration_time: 86400000
-  secret: ecommerce_token
+  secret: "{cipher}db656512d32ccd61c147142c5a811e816306677f1a948053061428aaeb444340_wrong"
 
 gateway:
   ip: "{cipher}999f558c84daf09f5f20abbafc68d92e66d595f71af06bca9c8cca5814c89d3f_wrong"
