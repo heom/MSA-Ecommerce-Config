@@ -45,10 +45,16 @@ spring:
           lob:
             non_contextual_creation: true
         format_sql: true
-
+        
 logging:
   level:
-    me.study.userservice: DEBUG
+    org:
+      hibernate:
+        SQL: DEBUG
+        type:
+          descriptor:
+            sql:
+              BasicBinder: TRACE
     me.study.userservice.client: DEBUG
 
 eureka:

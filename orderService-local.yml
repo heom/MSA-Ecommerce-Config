@@ -38,10 +38,16 @@ spring:
           lob:
             non_contextual_creation: true
         format_sql: true
-    show-sql: true
 
 logging:
   level:
+    org:
+      hibernate:
+        SQL: DEBUG
+        type:
+          descriptor:
+            sql:
+              BasicBinder: TRACE
     me.study.orderservice: DEBUG
 
 eureka:
