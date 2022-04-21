@@ -3,7 +3,7 @@ token:
   secret: ecommerce_token
 
 gateway:
-  ip: "{cipher}999f558c84daf09f5f20abbafc68d92e66d595f71af06bca9c8cca5814c89d3f"
+  ip: "{cipher}999f558c84daf09f5f20abbafc68d92e66d595f71af06bca9c8cca5814c89d3f_wrong"
 
 server:
   port: 0 #랜덤 포트
