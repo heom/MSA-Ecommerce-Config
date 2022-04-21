@@ -1,6 +1,7 @@
 token:
   expiration_time: 86400000
   secret: "{cipher}edb6d5c1d7a71c5b93a080bb1c553f2f245c5c60d01b2f0dc666c4e7f68b8620"
+  header: X-Authorization-Id
 
 server:
   port: 8000
@@ -115,6 +116,10 @@ eureka:
     fetch-registry: true # EUREKA 서버로부터 인스턴스들의 정보를 주기적으로 가져올 것을 설정, Default true
     service-url:
       defaultZone: http://127.0.0.1:8761/eureka
+
+logging:
+  level:
+    me.study.gateway.client: DEBUG
 
 management:
   endpoints:
