@@ -48,7 +48,7 @@ logging:
           descriptor:
             sql:
               BasicBinder: TRACE
-    me.study.orderservice: DEBUG
+    me.study.orderservice.client: DEBUG
 
 eureka:
   client:
