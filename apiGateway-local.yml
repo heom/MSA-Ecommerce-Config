@@ -1,6 +1,6 @@
 token:
   expiration_time: 86400000
-  secret: "{cipher}0b036da4f301e8c6939b8c17afa8bfa1c163b5c89e8dd4d09af195a3c5b4006b_wrong"
+  secret: "{cipher}edb6d5c1d7a71c5b93a080bb1c553f2f245c5c60d01b2f0dc666c4e7f68b8620_wrong"
 
 server:
   port: 8000
