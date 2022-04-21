@@ -117,10 +117,6 @@ eureka:
     service-url:
       defaultZone: http://127.0.0.1:8761/eureka
 
-logging:
-  level:
-    me.study.gateway.client: DEBUG
-
 management:
   endpoints:
     web:
