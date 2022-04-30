@@ -7,7 +7,7 @@ gateway:
   #Local
   #ip: "{cipher}999f558c84daf09f5f20abbafc68d92e66d595f71af06bca9c8cca5814c89d3f"
   #Docker
-  ip: "{cipher}6a80e0d819bc1155daa543979d8a86db98138f267e7461136709cc10b632aadd"
+  ip: "{cipher}5b813a3d35fab794cf574852f5303b849b669f9006e3cb1c7b7ef5c118e4425a"
 
 server:
   port: 0 #랜덤 포트
