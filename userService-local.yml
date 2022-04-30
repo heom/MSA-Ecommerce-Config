@@ -5,9 +5,9 @@ token:
 
 gateway:
   #Local
-  #ip: "{cipher}999f558c84daf09f5f20abbafc68d92e66d595f71af06bca9c8cca5814c89d3f"
+  ip: "{cipher}999f558c84daf09f5f20abbafc68d92e66d595f71af06bca9c8cca5814c89d3f"
   #Docker
-  ip: "{cipher}cae4aa0ae7ee1458c09a84460d35637d6086840e439fa0da66e5ee64bc74e347"
+  #ip: "{cipher}cae4aa0ae7ee1458c09a84460d35637d6086840e439fa0da66e5ee64bc74e347"
 
 server:
   port: 0 #랜덤 포트
