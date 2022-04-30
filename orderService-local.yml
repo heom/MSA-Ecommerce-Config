@@ -10,9 +10,15 @@ server:
 spring:
   application:
     name: order-service # MSA 고유 아이디
+  h2:
+    console:
+      enabled: true
+      settings:
+        web-allow-others: true
+      path: /h2-console
   jpa:
     hibernate:
-      ddl-auto: update
+      ddl-auto: create-drop
     properties:
       hibernate:
         dialect: org.hibernate.dialect.H2Dialect
@@ -20,16 +26,12 @@ spring:
           lob:
             non_contextual_creation: true
         format_sql: true
+    defer-datasource-initialization: true
+    show-sql: true
+    generate-ddl: true
 
-logging:
-  level:
-    org:
-      hibernate:
-        SQL: DEBUG
-        type:
-          descriptor:
-            sql:
-              BasicBinder: TRACE
-    me.study.orderservice.client: DEBUG
+my-kafka:
+  group-id: consumerGroupId
+  order-topic: order-topic
 
 
