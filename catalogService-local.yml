@@ -32,4 +32,3 @@ spring:
 
 my-kafka:
   group-id: consumerGroupId
-  order-topic: order-topic

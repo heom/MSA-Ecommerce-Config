@@ -30,8 +30,4 @@ spring:
     show-sql: true
     generate-ddl: true
 
-my-kafka:
-  group-id: consumerGroupId
-  order-topic: order-topic
-
 
