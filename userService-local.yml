@@ -3,12 +3,6 @@ token:
   secret: "{cipher}edb6d5c1d7a71c5b93a080bb1c553f2f245c5c60d01b2f0dc666c4e7f68b8620"
   header: X-Authorization-Id
 
-gateway:
-  #Local
-  #ip: "{cipher}999f558c84daf09f5f20abbafc68d92e66d595f71af06bca9c8cca5814c89d3f"
-  #Docker
-  ip: "{cipher}5b813a3d35fab794cf574852f5303b849b669f9006e3cb1c7b7ef5c118e4425a"
-
 server:
   port: 0 #랜덤 포트
   servlet:
