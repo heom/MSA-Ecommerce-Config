@@ -42,3 +42,9 @@ logging:
             sql:
               BasicBinder: TRACE
     me.study.userservice.client: DEBUG
+    
+management:
+  endpoints:
+    web:
+      exposure:
+        include: prometheus, metrics    
