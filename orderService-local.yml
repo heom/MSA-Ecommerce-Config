@@ -30,4 +30,8 @@ spring:
     show-sql: true
     generate-ddl: true
 
-
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info, prometheus, metrics

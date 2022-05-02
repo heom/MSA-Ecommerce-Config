@@ -109,4 +109,4 @@ management:
   endpoints:
     web:
       exposure:
-        include: httptrace
+        include: info, httptrace, prometheus, metrics
